@@ -3,12 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="framework_AnyDo.AnyDo.Home_Page">
+      <class name="framework_AnyDo.AnyDo.Login_Page">
         <methods>
-          <include name="CreateTask"/>
           <include name="initialize"/>
+          <include name="CreateTask"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- framework_AnyDo.AnyDo.Home_Page -->
+      </class> <!-- framework_AnyDo.AnyDo.Login_Page -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
